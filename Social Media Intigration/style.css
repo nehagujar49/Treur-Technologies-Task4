@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient(30deg,#132743,#407088,#80ced6,#ffb5b5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300;
+    height: 100vh;
+}
+.content{
+    width: 50%;
+    float: right;
+    height: 100%;
+    border: 2px solid wheat;
+}
+.img{
+    margin-top: 20%;
+    text-align: center;
+    border-radius: 50%;
+    width: auto;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+.pro{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+.icon{
+      display: flex;
+      margin-top: 50px;
+      align-items: center;
+      justify-content: center;
+
+}
+.icon div{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    cursor: pointer;
+    color: #eaf0fb;
+    border-radius: 30%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.27);
+    font-size: 30px;
+}
+.icon div:hover {
+    background-color: #d6cbd3;
+}
+.icon .linkedin {
+    margin-left: 25px;
+}
+
+.icon .gmail {
+    margin-left: 25px;
+}
+.icon .mobile{
+    margin-left: 25px;
+}
+
+.icon .github {
+    margin-left: 25px;
+}
+.content1{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    border: 2px solid wheat;
+}
+.content1 h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+}
+.info{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+hr{
+    width: 70%;
+    margin-right: 30%;
+}
